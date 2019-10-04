@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.jwt_auth.controllers.service;
+package com.mycompany.jwt_auth.service;
 
-import com.mycompany.jwt_auth.controllers.service.respositories.Account;
-import com.mycompany.jwt_auth.controllers.service.respositories.JwtUserDetailsRepository;
+import com.mycompany.jwt_auth.respositories.Account;
+import com.mycompany.jwt_auth.respositories.JwtUserDetailsRepository;
 import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

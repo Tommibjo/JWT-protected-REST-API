@@ -5,7 +5,7 @@
  */
 package com.mycompany.jwt_auth.config;
 
-import com.mycompany.jwt_auth.controllers.service.JwtUserDetailsService;
+import com.mycompany.jwt_auth.service.JwtUserDetailsService;
 import io.jsonwebtoken.ExpiredJwtException;
 import java.io.IOException;
 import javax.servlet.FilterChain;

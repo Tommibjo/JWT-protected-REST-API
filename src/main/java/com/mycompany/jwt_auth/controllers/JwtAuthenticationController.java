@@ -6,9 +6,9 @@
 package com.mycompany.jwt_auth.controllers;
 
 import com.mycompany.jwt_auth.config.JwtTokenUtil;
-import com.mycompany.jwt_auth.controllers.service.JwtUserDetailsService;
-import com.mycompany.jwt_auth.controllers.service.respositories.JwtResponse;
-import com.mycompany.jwt_auth.controllers.service.respositories.Account;
+import com.mycompany.jwt_auth.service.JwtUserDetailsService;
+import com.mycompany.jwt_auth.respositories.JwtResponse;
+import com.mycompany.jwt_auth.respositories.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
